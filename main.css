@@ -41,7 +41,7 @@ nav .nav-item:hover {
     text-align: center;
     padding-top: 15%;
     line-height: 2em;
-    font-size: 7em;
+    font-size: 6em;
 }
 
 #hero h3 {
@@ -55,11 +55,11 @@ nav .nav-item:hover {
     font-weight: 100;
     color: #013243;
     background-color: #ECECEC;
-    padding: 4%; 
+    padding: 5%; 
 }
 
 #about h2 {
-    padding-top: 10%;
+    padding-top: 5%;
     text-align: center;
 
 }
@@ -67,6 +67,10 @@ nav .nav-item:hover {
 #about h3 {
     padding-top: 10%;
     text-align: center;
+}
+
+#about img {
+    height: 450px;
 }
 
 #features {
@@ -157,7 +161,7 @@ F27935
         }
 
         #features {
-            height: 1500px;
+            height: 1200px;
         }
 
         #features .col-sm-12 {
@@ -169,17 +173,18 @@ F27935
             padding-top: 1.5em;
         }
 
-        #features ul {
-            padding-left: 13.5em;
-            line-height: 2em;
-        }
-
     }
 
     @media (max-width: 991px){
         #hero h1 {
             padding-top: 2em;
         }
+
+        #about {
+            height: 1200px;
+        }
+
+
     }
 
     @media (max-width: 767px) { 
@@ -204,6 +209,20 @@ F27935
         #for-md {
             display: inline;
             margin-left: 1em;
+        }
+
+        #about {
+            height: 1000px;
+        }
+
+        #about img {
+            height: 350px;
+            margin: 5%;
+        }
+
+        #features {
+            height: 1400px;
+            margin: auto;
         }
 
     }
@@ -266,18 +285,20 @@ F27935
        #map iframe {
         padding-top: 10%;
         /* margin-left: 10%; */
-    }
-        /* #features {
-            height: 650px;
         }
 
-        #features h3 {
-            font-size: 1.25em;
+        #about{
+            height: 800px;
         }
 
-        #features ul{
-            font-size: 1.25em;
-        } */
+        #about img{
+            height: 225px;
+            padding-top: 5%;
+        }
+         #features {
+            height: 1200px;
+        }
+
 
     }
 
