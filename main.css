@@ -79,6 +79,10 @@ nav .nav-item:hover {
     padding:10.5em 4.5em 0 4.5em;
 }
 
+#features .col-lg-4 p {
+    text-align: center;
+}
+
 #pricing {
     height: 450px;
     background-color: #ECECEC;
@@ -89,6 +93,11 @@ nav .nav-item:hover {
     height: 600px;
     background-color: #ABB7B7;
     padding-top: 5%;
+}
+
+#contact iframe {
+    width: 100%;
+    padding: 10% 10% 0;
 }
 
 #sm-map {
@@ -155,6 +164,13 @@ F27935
 
     }
 
+    @media(max-width: 1240px){
+        #about img {
+            height: 375px;
+        }
+    }
+
+
     @media (max-width: 1199px) { 
         #hero h1 {
             padding-top: 2em;
@@ -184,6 +200,24 @@ F27935
             height: 1200px;
         }
 
+        #about img {
+            padding: 5% 0 0 0;
+            height: 500px;
+        }
+
+        #features {
+            height: 950px;
+            padding-left: 15%;
+        }
+
+        #contact{
+            height: 900px;
+        }
+
+        #contact iframe {
+            width: 100%;
+            padding: 10% 10% 0;
+        }
 
     }
 
@@ -195,6 +229,16 @@ F27935
             display: inline;
         }
 
+        #about img{
+            height: 375px;
+        }
+
+    }
+
+    @media (max-width: 690px) {
+        #for-md {
+            margin-left: 0;
+        }
     }
 
     @media (max-width: 647px) { 
@@ -208,7 +252,7 @@ F27935
 
         #for-md {
             display: inline;
-            margin-left: 1em;
+            margin-left: 0;
         }
 
         #about {
@@ -227,7 +271,13 @@ F27935
 
     }
 
-    
+    @media (max-width: 610px){
+        #for-md{
+            display: none;
+        }
+    }
+
+
     @media (max-width: 583px) { 
         #for-sm {
             display: none;
@@ -254,17 +304,12 @@ F27935
             display: none;
         }
 
-        /* #features {
-            height: 750px;
-        }
+    }
 
-        #features h3 {
-            font-size: 1.5em;
+    @media (max-width: 550px){
+        #about img{
+            height: 300px;
         }
-
-        #features ul{
-            font-size: 1.5em;
-        } */
     }
 
     @media (max-width: 451px) { 
@@ -282,11 +327,6 @@ F27935
            padding-left: 0;
        }
 
-       #map iframe {
-        padding-top: 10%;
-        /* margin-left: 10%; */
-        }
-
         #about{
             height: 800px;
         }
@@ -294,6 +334,7 @@ F27935
         #about img{
             height: 225px;
             padding-top: 5%;
+            padding-left: 1%;
         }
          #features {
             height: 1200px;
@@ -322,6 +363,10 @@ F27935
         /* #features {
             height: 600px;
         } */
+
+        iframe {
+            padding-left: 15%;
+        }
 
 
     }
