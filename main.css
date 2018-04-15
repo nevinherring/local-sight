@@ -8,10 +8,6 @@ body {
     background-color: rgba(236, 236, 236, 0.3);
 }
 
-nav .nav-item:hover {
-    border-bottom: #013243 2px solid;
-}
-
 #for-lg {
     margin-left: 50em;
     display: inline;
@@ -26,13 +22,12 @@ nav .nav-item:hover {
 }
 
 #hero {
-    background-image: url("assets/clutter-hero.jpg");
+    background-image: url("assets/clutter-hero-2.jpg");
     height: 800px; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: multiply;
 }
 
@@ -41,13 +36,15 @@ nav .nav-item:hover {
     text-align: center;
     padding-top: 15%;
     line-height: 2em;
-    font-size: 6em;
+    font-size: 9em;
+    color: white;
 }
 
 #hero h3 {
     text-align: center;
-    font-weight: 100;
-    font-size: 3em;
+    font-weight: 300;
+    font-size: 4em;
+    color: white;
 }
 
 #about {
@@ -148,6 +145,29 @@ F27935
 
 
 
+    @media (min-width: 1200px) {
+        nav .nav-item:hover {
+            border-bottom: #013243 2px solid;
+        }
+     }
+
+     @media (max-width: 1411px) { 
+        #for-sm {
+            display: none;
+        }
+        
+        #for-lg{
+            display: none;
+        }
+
+        #for-md {
+            display: inline;
+            margin-left: 5em;
+        }
+
+    }
+
+
     @media (max-width: 1367px) { 
         #for-sm {
             display: none;
@@ -173,7 +193,7 @@ F27935
 
     @media (max-width: 1199px) { 
         #hero h1 {
-            padding-top: 2em;
+            padding-top: 12%;
         }
 
         #features {
@@ -192,8 +212,9 @@ F27935
     }
 
     @media (max-width: 991px){
+    
         #hero h1 {
-            padding-top: 2em;
+            padding-top: 15%;
         }
 
         #about {
@@ -310,6 +331,14 @@ F27935
         #about img{
             height: 300px;
         }
+
+        #hero{
+            padding-top: 40%;
+        }
+
+        #hero h1 {
+            font-size: 6em;
+        }
     }
 
     @media (max-width: 451px) { 
@@ -319,6 +348,15 @@ F27935
         
         #for-lg{
             display: none;
+        }
+
+
+        #hero h1{
+            padding-top: 1%;
+        }
+
+        #hero h3{
+            padding-top: 20%;
         }
 
        #contact{
@@ -352,9 +390,6 @@ F27935
             display: none;
         }
 
-        #hero h1 {
-            padding-top: 2em;
-        }
 
         #features {
             padding: 2.5em;
