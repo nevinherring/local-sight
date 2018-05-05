@@ -1,4 +1,4 @@
-body {  
+body {
    font-weight: 300;
    font-family: 'Lato', sans-serif;
 }
@@ -23,7 +23,7 @@ body {
 
 #hero {
     background-image: url("assets/clutter-hero-2.jpg");
-    height: 800px; 
+    height: 800px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@ body {
     font-weight: 100;
     color: #013243;
     background-color: #ECECEC;
-    padding: 5%; 
+    padding: 5%;
 }
 
 #about h2 {
@@ -104,6 +104,14 @@ body {
 footer {
     height: 300px;
     background-color: #013243;
+    color: #C5EFF7;
+}
+
+footer ul {
+  list-style: none;
+  display: inline-block;
+  margin: auto;
+  padding-top: 18%;
 }
 
 /* PUMICE
@@ -121,7 +129,7 @@ F5AB35
 /* MADISON
 2C3E50
 44, 62, 80 */
-/* 
+/*
 JAFFA
 F27935
 242, 121, 53 */
@@ -134,11 +142,11 @@ F27935
 89C4F4
 137, 196, 244 */
 
-/* background: linear-gradient( 
+/* background: linear-gradient(
     to right,
     #89C4F4,
     #89C4F4 15%,
-    #2C3E50 15%, 
+    #2C3E50 15%,
     #2C3E50 85%,
     #89C4F4 85%
     ); */
@@ -151,11 +159,11 @@ F27935
         }
      }
 
-     @media (max-width: 1411px) { 
+     @media (max-width: 1411px) {
         #for-sm {
             display: none;
         }
-        
+
         #for-lg{
             display: none;
         }
@@ -168,11 +176,11 @@ F27935
     }
 
 
-    @media (max-width: 1367px) { 
+    @media (max-width: 1367px) {
         #for-sm {
             display: none;
         }
-        
+
         #for-lg{
             display: none;
         }
@@ -191,7 +199,7 @@ F27935
     }
 
 
-    @media (max-width: 1199px) { 
+    @media (max-width: 1199px) {
         #hero h1 {
             padding-top: 12%;
         }
@@ -209,10 +217,14 @@ F27935
             padding-top: 1.5em;
         }
 
+        footer ul {
+          padding-top: 20%;
+        }
+
     }
 
     @media (max-width: 991px){
-    
+
         #hero h1 {
             padding-top: 15%;
         }
@@ -240,9 +252,13 @@ F27935
             padding: 10% 10% 0;
         }
 
+        footer ul {
+          padding-top: 22%;
+        }
+
     }
 
-    @media (max-width: 767px) { 
+    @media (max-width: 767px) {
         #lg-map{
             display: none;
         }
@@ -254,19 +270,27 @@ F27935
             height: 375px;
         }
 
+        footer ul{
+          padding-top: 27%;
+        }
+
     }
 
     @media (max-width: 690px) {
         #for-md {
             margin-left: 0;
         }
+
+        footer ul{
+          padding-top: 35%;
+        }
     }
 
-    @media (max-width: 647px) { 
+    @media (max-width: 647px) {
         #for-sm {
             display: none;
         }
-        
+
         #for-lg{
             display: none;
         }
@@ -299,11 +323,11 @@ F27935
     }
 
 
-    @media (max-width: 583px) { 
+    @media (max-width: 583px) {
         #for-sm {
             display: none;
         }
-        
+
         #for-lg{
             display: none;
         }
@@ -313,14 +337,18 @@ F27935
 
         }
 
+        footer ul{
+          padding-top: 40%;
+        }
+
     }
 
 
-     @media (max-width: 575.98px) { 
+     @media (max-width: 575.98px) {
         #for-sm {
             display: inline;
         }
-        
+
         #for-lg{
             display: none;
         }
@@ -341,19 +369,19 @@ F27935
         }
     }
 
-    @media (max-width: 451px) { 
+    @media (max-width: 451px) {
         #for-sm {
             display: inline;
         }
-        
+
         #for-lg{
             display: none;
         }
 
-
-        #hero h1{
-            padding-top: 1%;
+        #hero h1 {
+            padding-top: 5%;
         }
+
 
         #hero h3{
             padding-top: 5%;
@@ -378,14 +406,17 @@ F27935
             height: 1200px;
         }
 
+        footer ul{
+          padding-top: 65%;
+        }
 
     }
 
-    @media (max-width: 415px) { 
+    @media (max-width: 415px) {
         #for-sm {
             display: inline;
         }
-        
+
         #for-lg{
             display: none;
         }
@@ -405,6 +436,3 @@ F27935
 
 
     }
-    
-        
-        
